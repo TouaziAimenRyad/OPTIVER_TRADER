@@ -313,8 +313,8 @@ def main():
         check_connection(e)
         print(delta_neutral(e,1))
         print(market_making(e,1))
-        print(spread_trade(e))
-        print(balance(e))
+        #print(spread_trade(e))
+        #print(balance(e))
         time.sleep(0.08)
         
 
